@@ -56,12 +56,30 @@ hr {
     background-color: black; /* Цвет линии */
     height: .05em; /* Толщина линии */
    }
+#borderTable {
+  border-radius: 5px;
+  background-color: white;
+}
+table {
+  margin-top: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  border-collapse: inherit; 
+  
+}
+
 table thead * {
 	font-size: 1.1em;
 }
 table tbody * {
 	font-size: 1em;
 	font-weight: normal;
+}
+
+.container .btn {
+  clear: both;
+  padding: .3em .6em;
+
 }
 
 

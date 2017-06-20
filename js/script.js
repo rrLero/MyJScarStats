@@ -48,7 +48,7 @@
 					string = insertProperty(string, 'carId', carsList[i].id);
 					html += string;
 				}
-				html += "</tbody></table>"
+				html += "</tbody></table></div>"
 			document.querySelector("#insertHere").innerHTML=html;				
 				}, false);			
 		}, false)		
@@ -80,7 +80,7 @@
 					string = insertProperty(string, 'pays', notesList.notes[i].pays);
 					html += string;
 				}
-				html += "</tbody></table>"
+				html += "</tbody></table></div>"
 			document.querySelector("#insertHere").innerHTML=html;				
 				}, false);			
 		}, false)		

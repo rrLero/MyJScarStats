@@ -3,6 +3,16 @@
                 <th><a href="#" onclick="$loadOneCarNotes({{carId}});">{{govNumber}}</a></th>
                 <th>{{carType}}</th>
                 <th hidden="true">{{carId}}</th>
-                <th>del new</th>
+                <th  class="container">
+                	<div id="button" class="row text-center">
+	                	<button type="button" class="btn btn-danger" aria-haspopup="true" aria-expanded="false">
+					    <span class="glyphicon glyphicon-trash"></span>
+					  </button>
+					  <button type="button" class="btn btn-primary" aria-haspopup="true" aria-expanded="false">
+					    <span class="glyphicon glyphicon-pencil"></span>
+					  </button>	
+                	</div>
+                	
+				</th>
               </tr>
              
